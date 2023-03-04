@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-04T17:16:48.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="TBwECZPE3b6mrgFIXT6X" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-04T17:47:12.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uyz99XoOR8CjWNEQa18l" version="21.0.2" type="github">
   <diagram name="Page-1" id="y9iI2XiQNOOBf_MW6NYh">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,29 @@
         </mxCell>
         <mxCell id="yCX_wMRBIf_Tw4EfQnRq-40" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;When a system is iterative and incremental, it undergoes continuous testing and refinement throughout the project—a systems analyst builds up the three architectural views, studying and learning more about potential user problems each time. By evolving the architectural views, a systems analyst better understands the structural and behavioral and uncovers problems or misrepresentations in the functional view&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="580" y="520" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yCX_wMRBIf_Tw4EfQnRq-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-45" value="Functional View" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="730" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-48" value="The functional, or external, view describes the user and their perspective of the system.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yCX_wMRBIf_Tw4EfQnRq-45">
+          <mxGeometry x="10" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-49" value="Static View" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="900" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-50" value="The static, or structural, view describes the system in terms of attributes, methods, classes, and relationships.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yCX_wMRBIf_Tw4EfQnRq-49">
+          <mxGeometry x="10" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-52" value="Dynamic View" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="900" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX_wMRBIf_Tw4EfQnRq-53" value="The dynamic, or behavioral, view describes how the system&#39;s objects communicate and relay information.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yCX_wMRBIf_Tw4EfQnRq-52">
+          <mxGeometry x="10" y="30" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
